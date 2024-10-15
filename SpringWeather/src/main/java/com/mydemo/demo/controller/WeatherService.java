@@ -25,7 +25,7 @@ public class WeatherService {
 		this.cityName = cityName;
 	}
 
-	private final String APIKEY = "bb951a21d47bb075cf9c19f573e1a1ad";
+	private final String APIKEY = "";
 
 	public JSONObject getWeather() {
 	    client = new OkHttpClient();
